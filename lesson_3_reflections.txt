@@ -1,28 +1,43 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
-
- 
+  In a colaboration project where multiple people are working on same projects
+  to save the data in case local repo fails
+  in opensource projects
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-
-   
+  if someone else had made changes to the remote repo, then it would be difficult
+  to track file changes hence manual pull is a beter option and also commits will
+  be seperated logically
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    
+  forks are the remote repositories on the remote server , while clones are there
+  in between remote and local or two locals while branch is just a named reference
+  to a commit through which we can direct the code developement in multipe routes.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
+  this helps in proper synchronization of the remote repository and the local
+  repository, any merges needed can be done offline and pushed back later when
+  internet is there.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    
+  without using git and github collaboration is very difficult. Git and github
+  provides ease in big collaborative projects. Although there are various VCS but
+  git and github are superior from all of them.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-  
+  I would create a branch when I am working on a different feature and also its
+  not the major part of release , also when i want to experiment with the code
+  architecture i usually create a branch.
+  pros of branch:
+  it make the master branch less clumsy
+  bugs are away from the master branches
+  can work independently without anyones hinderance
+  pros of master:
+  all things are shared with each other regularly
+  direct implementation in the latest release
+  master becomes full of features
